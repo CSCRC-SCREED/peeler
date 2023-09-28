@@ -1,11 +1,17 @@
 name: peeler
-description: We collected active ransomware samples from more than 60 ransomware families. 
-Each ransomware sample was executed in a VirtualBox and then manually labeled by each family type. 
-We developled our own tool to collect provenance data which will be made available here. We ran each ransomware sample for ten minutes or until all user files were encrypted. It took more than 90 days to run all samples and collect data. 
+description: Collection of active ransomware samples from more than 60 ransomware families
 contributors:
-- name: Muhhamd Ejaz
+- name: Muhhamad Ejaz
 data:
-- name: Malcious Commands dataset
-  description: Malcious Commands dataset
+- path: [path_to_your_data_file]
   format: json
+  size: [size of your data file]
+
+license:
+- name: GNU v3
+  link: [Link to the license page]
+references:
+- name: [Name of the first reference]
+  link: [https://link_to_your_first_reference]
+
 
